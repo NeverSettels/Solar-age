@@ -23,7 +23,8 @@ export const leftToLive = (age, expectancy) => {
   let yearsLeft = expectancy - age
   if (yearsLeft > 0) {
     return [yearsLeft, 'left']
+  } else if (yearsLeft < 0) {
+    return [-1 * yearsLeft, 'past']
   }
-
   return [age, expectancy]
 }
