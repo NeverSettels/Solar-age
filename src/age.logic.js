@@ -7,5 +7,5 @@ export function checkIfNumber(input) {
 }
 
 export function clacMercuryYears(numYears) {
-  return numYears
+  return numYears * 0.24
 }
