@@ -1,7 +1,11 @@
 export function checkIfNumber(input) {
   if (typeof input === "string") {
-    return false
+    return false;
   } else {
-    return true
+    return true;
   }
+}
+
+export function clacMercuryYears(numYears) {
+  return numYears
 }
