@@ -57,4 +57,8 @@ describe('leftToLive', () => {
   test('Should take an age and a life expectancyand check return how long the user has lived past expectancy', () => {
     expect(leftToLive(80, 60)).toEqual([20, 'past']);
   });
+
+  test('Should take an age and a life expectancyand check the edge case in which the user is same age as expectancy', () => {
+    expect(leftToLive(60, 60)).toEqual([0, 'soon']);
+  });
 });
