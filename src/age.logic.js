@@ -19,3 +19,6 @@ export function getLifeExpectancy(country) {
     return 82.30
   }
 }
+export const leftToLive = (age, expectancy) => {
+  return [age, expectancy]
+}
