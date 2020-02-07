@@ -6,6 +6,4 @@ export function checkIfNumber(input) {
   }
 }
 
-export function clacMercuryYears(numYears) {
-  return numYears * 0.24
-}
+export const clacMercuryYears = (numYears) => numYears * 0.24;
