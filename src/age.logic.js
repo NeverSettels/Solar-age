@@ -1,3 +1,7 @@
 export function checkIfNumber(input) {
-  return input
+  if (typeof input === "string") {
+    return false
+  } else {
+    return input
+  }
 }
