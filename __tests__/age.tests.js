@@ -36,15 +36,15 @@ describe('calcJupiterYears', () => {
 
 
 describe('getLifeExpectancy', () => {
-  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+  test('Should take a country and return the avarage life expectancy of people in mexico', () => {
     expect(getLifeExpectancy('mexico')).toEqual(77.12);
   });
 
-  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+  test('Should take a country and return the avarage life expectancy of people in usa', () => {
     expect(getLifeExpectancy('usa')).toEqual(78.69);
   });
 
-  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+  test('Should take a country and return the avarage life expectancy of people in canada', () => {
     expect(getLifeExpectancy('canada')).toEqual(82.30);
   });
 });
