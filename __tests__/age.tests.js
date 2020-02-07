@@ -1,4 +1,4 @@
-import { checkIfNumber, clacMercuryYears, calcVenusYears, calcMarsYears } from '../src/age.logic.js'
+import { checkIfNumber, clacMercuryYears, calcVenusYears, calcMarsYears, calcJupiterYears } from '../src/age.logic.js'
 
 describe('checkIfnumber', () => {
   test('Should check that checkIfNumber function returns false if passed a string', () => {
@@ -25,5 +25,11 @@ describe('calcVenusYears', () => {
 describe('calcMarsYears', () => {
   test('Should take the number of years inputed and convert it to Mars years', () => {
     expect(calcMarsYears(1)).toEqual(1.88);
+  });
+});
+
+describe('calcJupiterYears', () => {
+  test('Should take the number of years inputed and convert it to Jupiter years', () => {
+    expect(calcJupiterYears(1)).toEqual(11.86);
   });
 });
