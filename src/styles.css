@@ -1,6 +1,5 @@
 body {
  padding: 10vh 10vw;
- height: 100vh;
  width: 100vw;
  background-image: url('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg');
  background-size: cover;
@@ -16,4 +15,28 @@ body {
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'Space Mono', monospace;
+}
+.planet{
+  width: 20vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.planet img {
+  width: 15vw;
+}
+.planet img[alt='mars'], .planet img[alt='venus'] {
+  width: 10vw;
+}
+.planet img[alt='jupiter'] {
+  width: 20vw;
+}
+
+.planets {
+  margin-top: 20vh; 
+  display: flex;
+  justify-content: space-evenly
 }
