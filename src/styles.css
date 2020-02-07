@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5,h6{
 .planet img {
   width: 15vw;
 }
+.planet img {
+  cursor: pointer;
+}
 .planet img[alt='mars'], .planet img[alt='venus'] {
   width: 10vw;
 }
@@ -43,3 +46,4 @@ h1,h2,h3,h4,h5,h6{
 .no-display{
   display: none;
 }
+
