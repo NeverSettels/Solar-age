@@ -13,6 +13,8 @@ export const calcJupiterYears = numYears => numYears * 11.86;
 export function getLifeExpectancy(country) {
   if (country === 'mexico') {
     return 77.12
+  } else if (country === 'usa') {
+    return 78.69
   }
   return country;
 }
