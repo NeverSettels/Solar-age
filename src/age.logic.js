@@ -15,6 +15,7 @@ export function getLifeExpectancy(country) {
     return 77.12
   } else if (country === 'usa') {
     return 78.69
+  } else if (country === 'canada') {
+    return 82.30
   }
-  return country;
 }
