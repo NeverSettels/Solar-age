@@ -1,4 +1,4 @@
-import { checkIfNumber, clacMercuryYears } from '../src/age.logic.js'
+import { checkIfNumber, clacMercuryYears, calcVenusYears } from '../src/age.logic.js'
 
 describe('checkIfnumber', () => {
   test('Should check that checkIfNumber function returns false if passed a string', () => {
@@ -13,5 +13,11 @@ describe('checkIfnumber', () => {
 describe('clacMercuryYears', () => {
   test('Should take the number of years inputed and convert it to Mercury years', () => {
     expect(clacMercuryYears(1)).toEqual(.24);
+  });
+});
+
+describe('calcVenusYears', () => {
+  test('Should take the number of years inputed and convert it to Venus years', () => {
+    expect(calcVenusYears(1)).toEqual(.62);
   });
 });
