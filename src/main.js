@@ -7,12 +7,13 @@ import './styles.css';
 
 console.log('pls')
 $(document).ready(() => {
-  // let selectedCountry = '';
-  // let age = 0;
+  let selectedCountry = '';
+  let age = 0;
   $('#age-form').submit(event => {
     event.preventDefault();
-    let selectedCountry = $("#country").children("option:selected").val();
-    let age = $('#age').val();
-    console.log(age, selectedCountry);
+    selectedCountry = $("#country").children("option:selected").val();
+    age = $('#age').val();
+    $('#age-form').addClass('no-display');
+    $('.planets').removeClass('no-display');
   });
 });
