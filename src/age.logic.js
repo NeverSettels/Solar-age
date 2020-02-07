@@ -20,5 +20,10 @@ export function getLifeExpectancy(country) {
   }
 }
 export const leftToLive = (age, expectancy) => {
+  let yearsLeft = expectancy - age
+  if (yearsLeft > 0) {
+    return [yearsLeft, 'left']
+  }
+
   return [age, expectancy]
 }
