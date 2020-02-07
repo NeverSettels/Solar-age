@@ -12,20 +12,20 @@ export const calcJupiterYears = numYears => numYears * 11.86;
 
 export function getLifeExpectancy(country) {
   if (country === 'mexico') {
-    return 77
+    return 77;
   } else if (country === 'usa') {
-    return 79
+    return 79;
   } else if (country === 'canada') {
-    return 82
+    return 82;
   }
 }
 export const leftToLive = (age, expectancy) => {
   let yearsLeft = expectancy - age
   if (yearsLeft > 0) {
-    return [yearsLeft, 'left']
+    return [yearsLeft, 'left'];
   } else if (yearsLeft < 0) {
-    return [-1 * yearsLeft, 'past']
+    return [-1 * yearsLeft, 'past'];
   } else if (yearsLeft === 0) {
-    return [yearsLeft, 'soon']
+    return [yearsLeft, 'soon'];
   }
 }
