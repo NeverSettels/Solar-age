@@ -8,6 +8,4 @@ export function checkIfNumber(input) {
 
 export const clacMercuryYears = numYears => numYears * 0.24;
 
-export const calcVenusYears = numYears => {
-  return numYears * 0.62;
-}
+export const calcVenusYears = numYears => numYears * 0.62;
