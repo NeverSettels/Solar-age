@@ -12,7 +12,7 @@
 <body class='container'>
   <h1>Solar Age</h1>
   <div class='form-cont'>
-    <form id="form">
+    <form id="age-form">
       <div>
         <label for="age">Enter your age</label>
         <input type="number" id='age'>
@@ -20,11 +20,14 @@
       <div>
         <label for="country">Select country of Origin</label>
         <select id="country">
-          <option>U.S.A</option>
-          <option>Mexico</option>
-          <option>Canada</option>
+          <option value="usa">U.S.A</option>
+          <option value='mexico'>Mexico</option>
+          <option value='canada'>Canada</option>
         </select>
       </div>
+
+      <button type="submit">Enter</button>
+
     </form>
     <div class="planets">
       <div class='planet' id='mercury'><img src="https://nineplanets.org/wp-content/uploads/2019/09/mercury.png"
