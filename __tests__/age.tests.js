@@ -1,4 +1,4 @@
-import { checkIfNumber, clacMercuryYears, calcVenusYears, calcMarsYears, calcJupiterYears } from '../src/age.logic.js'
+import { checkIfNumber, clacMercuryYears, calcVenusYears, calcMarsYears, calcJupiterYears, getLifeExpectancy } from '../src/age.logic.js'
 
 describe('checkIfnumber', () => {
   test('Should check that checkIfNumber function returns false if passed a string', () => {
@@ -31,5 +31,20 @@ describe('calcMarsYears', () => {
 describe('calcJupiterYears', () => {
   test('Should take the number of years inputed and convert it to Jupiter years', () => {
     expect(calcJupiterYears(1)).toEqual(11.86);
+  });
+});
+
+
+describe('getLifeExpectancy', () => {
+  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+    expect(getLifeExpectancy('mexico')).toEqual(77.12);
+  });
+
+  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+    expect(getLifeExpectancy('usa')).toEqual(78.69);
+  });
+
+  test('Should take a country and return the avarage life expectancy of people in that country', () => {
+    expect(getLifeExpectancy('canada')).toEqual(82.30);
   });
 });
