@@ -29,6 +29,8 @@ _This program is designed to calculate a user age in different parts of the sola
 5. Step five: Drag the html file into your broswer. 
 6. Step six: Start picking your toppings!
 
+or enjoy it on [Netlyfy](https://elastic-ride-6b350c.netlify.com/)
+
 ## **Known Bugs**
 
 There are no known bugs at this time.
@@ -36,6 +38,12 @@ There are no known bugs at this time.
 ## **Support and contact details**
 
 If you have any questions, comments, or concerns, feel free to contact the content creator at settels.eric@gmail.com 
+
+## **Future Plans**
+
+* _Add Further Stylizing_
+* _Add More Planets_
+* _Add Transitions Between different views
 
 ## **Technologies used**
 
