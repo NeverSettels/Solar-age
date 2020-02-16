@@ -12,12 +12,9 @@ _This program is designed to calculate a user age in different parts of the sola
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| Allow user to enter their age and check that it is not a letter or word | User inputs twentyfour  | 'Please use numbers to enter your age' |
-| User enters thier age and recives confiramtion that it was inputed correctly | User inputs 24  | 'So you're 24!' |
-| Allow user to select planet to see their age there | user selcts "mars" | User sees a fun fact about mars and their age on that planet |
-| Ask user to choose from US, Canada, and Mexico to determine life expectancy | User selects "Mexico" | The avarage life expectancy in Mexico is 77 yearss old |
-| Allow user to click planet and show their age and their countries life expectancies  | User selects 'Venus' |user sees venus fun fact their age as 39 and their life expectancy of 125 |
-| On planet click user sees how many more years they have on that planet | User selects 'Venus' | user sees venus fun fact their age as 39 and their life expectancy of 125 and that they have ~86 years to live |
+| User enters thier age thier  and selects country of origin and is presented with planets to choose from | User inputs 24 and selects Mexico  | The form disapears and the user is presented with 4 planets to pick from |
+| Allow user to select planet to see their age there | user selcts "mars" | User sees a fun fact about mars and their age on that planet as well as thier life expectancy |
+| User can click on back button  at bottom of planet data and select another planet | User selects 'Venus' and then clicks back | user is taken back to the planet selection screen|
 
 
 ## **Setup/Installation**
@@ -27,7 +24,7 @@ _This program is designed to calculate a user age in different parts of the sola
 3. Step three: Clone this repository.
 4. Step four: Open the repository.
 5. Step five: Drag the html file into your broswer. 
-6. Step six: Start picking your toppings!
+
 
 or enjoy it on [Netlyfy](https://elastic-ride-6b350c.netlify.com/)
 
