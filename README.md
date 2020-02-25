@@ -13,8 +13,14 @@ _This program is designed to calculate a user age in different parts of the sola
 | Behavior | Input | Output |
 |----------|:-----:|--------|
 | User enters thier age thier age and selects country of origin and is presented with planets to choose from | User inputs 24 and selects Mexico  | The form disapears and the user is presented with 4 planets to pick from |
-| Allow user to select planet to see their age there | user selcts "mars" | User sees a fun fact about mars and their age on that planet as well as thier life expectancy |
-| User can click on back button  at bottom of planet data and select another planet | User selects 'Venus' and then clicks back | user is taken back to the planet selection screen|
+| Allow user to select planet to see their age there | user selcts "mars" | User sees a fun fact about mars and their age as 45.12 their life expectancy as 144.76 and the fact that they on average have   99.63999999999999 mars years to live |
+| User can click on back button  at bottom of planet data and select another planet | User clicks back | user is taken back to the planet selection screen|
+| Allow user to select planet to see their age there | user selcts "Mercury" | User sees a fun fact about mercury and their age as 5.76 their life expectancy as 14.879999999999999 and the fact that they on average have  12.72 mercury years to live |
+| User can click on back button  at bottom of planet data and select another planet | User clicks back | user is taken back to the planet selection screen|
+| Allow user to select planet to see their age there | user selcts "Venus" | User sees a fun fact about venus and their age as 5.76 their life expectancy as 47.74 and the fact that they on average have 32.86 venus years to live |
+| User can click on back button  at bottom of planet data and select another planet | User clicks back | user is taken back to the planet selection screen|
+| Allow user to select planet to see their age there | user selcts "Jupiter" | User sees a fun fact about venus and their age as 284.64 their life expectancy as 913.2199999999999 and the fact that they on average have 628.5799999999999 Jupiter years to live |
+| User can click on back button  at bottom of planet data and select another planet | User clicks back | user is taken back to the planet selection screen|
 
 
 ## **Setup/Installation**

@@ -27,7 +27,7 @@ $(document).ready(() => {
       $('#fact').text('Mercury is the closest planet to the Sun and is also the smallest of the eight planets in our solar system. For every 2 orbits of the Sun, which takes around 88 Earth days, Mercury completes three rotations of its axis. It is gravitationally locked and this rotation is unique to the solar system.');
       $('#age-span').text(myPlanet.clacMercuryYears(age));
       $('#expectancy-span').text(myPlanet.clacMercuryYears(myPlanet.getLifeExpectancy(selectedCountry)));
-      let lefttoliveArr = leftToLive(myPlanet.clacMercuryYears(age), myPlanet.clacMercuryYears(myPlanet.getLifeExpectancy(selectedCountry)));
+      let lefttoliveArr = myPlanet.leftToLive(myPlanet.clacMercuryYears(age), myPlanet.clacMercuryYears(myPlanet.getLifeExpectancy(selectedCountry)));
       if (lefttoliveArr[1] === 'left') {
         $('#left-to-live').text(`You have on avarge ${lefttoliveArr[0]} years to live`);
       } else if (lefttoliveArr[1] === 'past') {
@@ -42,7 +42,7 @@ $(document).ready(() => {
       $('#fact').text('Mars is the fourth planet from the Sun and last of the terrestrial planets. Like the rest of the planets in the solar system (except Earth), Mars is named after a mythological figure - the Roman god of war. In addition to its official name, Mars is sometimes called the Red Planet because of the brownish-red color of its surface. Mars is the second smallest planet in the solar system behind Mercury.');
       $('#age-span').text(myPlanet.calcMarsYears(age));
       $('#expectancy-span').text(myPlanet.calcMarsYears(myPlanet.getLifeExpectancy(selectedCountry)));
-      let lefttoliveArr = leftToLive(myPlanet.calcMarsYears(age), myPlanet.calcMarsYears(myPlanet.getLifeExpectancy(selectedCountry)));
+      let lefttoliveArr = myPlanet.leftToLive(myPlanet.calcMarsYears(age), myPlanet.calcMarsYears(myPlanet.getLifeExpectancy(selectedCountry)));
       if (lefttoliveArr[1] === 'left') {
         $('#left-to-live').text(`You have on avarge ${lefttoliveArr[0]} years to live`);
       } else if (lefttoliveArr[1] === 'past') {
@@ -57,7 +57,7 @@ $(document).ready(() => {
       $('#fact').text("Venus is the second planet from the Sun and the third brightest object in Earth's sky after the Sun and Moon. It is sometimes referred to as the sister planet to Earth, because their size and mass are so similar. Venus is also the closest planet to Earth. The surface of Venus is hidden by an opaque layer of clouds which are formed from sulphuric acid. The planet is named for Venus, the Roman goddess of love and beauty and is the second largest terrestrial planet.");
       $('#age-span').text(myPlanet.calcVenusYears(age));
       $('#expectancy-span').text(myPlanet.calcVenusYears(myPlanet.getLifeExpectancy(selectedCountry)));
-      let lefttoliveArr = leftToLive(myPlanet.calcVenusYears(age), myPlanet.calcVenusYears(myPlanet.getLifeExpectancy(selectedCountry)));
+      let lefttoliveArr = myPlanet.leftToLive(myPlanet.calcVenusYears(age), myPlanet.calcVenusYears(myPlanet.getLifeExpectancy(selectedCountry)));
       if (lefttoliveArr[1] === 'left') {
         $('#left-to-live').text(`You have on avarge ${lefttoliveArr[0]} years to live`);
       } else if (lefttoliveArr[1] === 'past') {
@@ -72,7 +72,7 @@ $(document).ready(() => {
       $('#fact').text("Named after the Roman king of the gods, Jupiter is fitting of its name. With a mass of 1.90 x 1027 kg and a mean diameter of 139,822 km, Jupiter is easily the largest and most massive planet in the Solar System. To put this in perspective, it would take 11 Earths lined up next to each other to stretch from one side of Jupiter to the other and it would take 317 Earths to equal the mass of Jupiter.");
       $('#age-span').text(myPlanet.calcJupiterYears(age));
       $('#expectancy-span').text(myPlanet.calcJupiterYears(myPlanet.getLifeExpectancy(selectedCountry)));
-      let lefttoliveArr = leftToLive(myPlanet.calcJupiterYears(age), myPlanet.calcJupiterYears(myPlanet.getLifeExpectancy(selectedCountry)));
+      let lefttoliveArr = myPlanet.leftToLive(myPlanet.calcJupiterYears(age), myPlanet.calcJupiterYears(myPlanet.getLifeExpectancy(selectedCountry)));
       if (lefttoliveArr[1] === 'left') {
         $('#left-to-live').text(`You have on avarge ${lefttoliveArr[0]} years to live`);
       } else if (lefttoliveArr[1] === 'past') {
