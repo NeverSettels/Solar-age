@@ -6,10 +6,10 @@ export class Planet {
       return true;
     }
   }
-  clacMercuryYears = numYears => numYears * 0.24;
-  calcVenusYears = numYears => numYears * 0.62;
-  calcMarsYears = numYears => numYears * 1.88;
-  calcJupiterYears = numYears => numYears * 11.86;
+  clacMercuryYears (numYears){ return numYears * 0.24;}
+  calcVenusYears (numYears) { return numYears * 0.62;}
+  calcMarsYears (numYears) { return numYears * 1.88;}
+  calcJupiterYears (numYears) { return numYears * 11.86;}
 
   getLifeExpectancy(country) {
     if (country === 'mexico') {
@@ -20,7 +20,8 @@ export class Planet {
       return 82;
     }
   }
-  leftToLive = (age, expectancy) => {
+  //Will take an age and expectancy and see how clalculate weather or not that person has reached it, is above it or below it. Will pass age and expectancy converted to each planets year total
+  leftToLive(age, expectancy){
     let yearsLeft = expectancy - age
     if (yearsLeft > 0) {
       return [yearsLeft, 'left'];
